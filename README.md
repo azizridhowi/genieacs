@@ -22,7 +22,7 @@ wget https://github.com/azizridhowi/genieacs/raw/refs/heads/main/presets.metadat
 wget https://github.com/azizridhowi/genieacs/raw/refs/heads/main/provisions.bson
 wget https://github.com/azizridhowi/genieacs/raw/refs/heads/main/provisions.metadata.json
 wget https://github.com/azizridhowi/genieacs/raw/refs/heads/main/virtualParameters.bson
-wget https://github.com/bazizridhowi/genieacs/raw/refs/heads/main/virtualParameters.metadata.json
+wget https://github.com/azizridhowi/genieacs/raw/refs/heads/main/virtualParameters.metadata.json
 mongorestore --db genieacs --drop /root/db
 systemctl start genieacs-{cwmp,ui,nbi}
 ```
